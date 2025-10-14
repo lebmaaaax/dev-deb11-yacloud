@@ -1,0 +1,36 @@
+{
+  "variables": {
+    "token": "",
+    "folder_id": "",
+    "zone": "",
+    "subnet_id": "",
+    "ssh_username": "debian"
+  },
+
+  "builders": [
+    {
+      "type": "yandex",
+      "token": "{{user `token`}}",
+      "folder_id": "{{user `folder_id`}}",
+      "zone": "{{user `zone`}}",
+
+      "image_name": "debian-11-{{isotime | clean_resource_name}}",
+      "image_family": "debian-server",
+      "image_description": "dev vm",
+
+      "source_image_family": "debian-11",
+      "subnet_id": "{{user `subnet_id`}}",
+      "use_ipv4_nat": true,
+      "disk_type": "network-ssd",
+      "ssh_username": "{{user `ssh_username`}}"
+    }
+  ],
+
+  "provisioners": [
+    {
+      "type": "ansible",
+      "playbook_file": "ansible/playbooks/setup_dev_env.yml",
+      "ansible_env_vars": ["ANSIBLE_CONFIG=ansible/ansible.cfg"]
+    }
+  ]
+}

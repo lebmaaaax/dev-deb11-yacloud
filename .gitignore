@@ -1,0 +1,11 @@
+# keys
+key.json
+*.pem
+*.key
+
+# packer vars
+variables.auto.pkrvars.json
+
+# logs
+*.log
+*.retry

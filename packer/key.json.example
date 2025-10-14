@@ -1,0 +1,10 @@
+# Подставить данные вашего сервисного аккаунта
+# В реальном key.json хранятся приватные данные - осторожнее !
+
+{
+  "id": "aje8xxxxxxxxxxxxxx",
+  "service_account_id": "aje8xxxxxxxxxxxxxx",
+  "created_at": "2025-01-01T00:00:00Z",
+  "key_algorithm": "RSA_2048",
+  "public_key": "-----BEGIN PUBLIC KEY----- ... -----END PUBLIC KEY-----"
+}

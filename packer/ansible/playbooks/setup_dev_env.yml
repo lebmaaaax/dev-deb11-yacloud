@@ -1,0 +1,10 @@
+---
+- name: Setup development environment
+  hosts: all
+  become: yes
+
+  vars:
+    dev_user: dev
+
+  roles:
+    - devtools

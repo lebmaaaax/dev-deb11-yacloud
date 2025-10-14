@@ -1,0 +1,10 @@
+# Этот файл помогает понять структуру и имена переменных без раскрытия реальных данных.
+
+{
+  "token" : "y0__xxxxxxxxxxxx"
+  "folder_id": "b1gxxxxxxxxxxxx",
+  "source_image_family": "debian-11",
+  "subnet_id": "e9bxxxxxxxxxxxxx",
+  "zone": "ru-central1-a",
+  "ssh_username": "debian"
+}

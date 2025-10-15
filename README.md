@@ -12,23 +12,6 @@
 - Предустановленный `Docker` и `Python` окружение  
 - Конфигурация через `Ansible` роли
 
-**Структура проекта**
-
-dev-deb11-yacloud/
-├── packer/
-│ ├── ansible/
-│ │ ├── ansible.cfg
-│ │ ├── playbooks/
-│ │ │ └── setup_dev_env.yml
-│ │ ├── roles/
-│ │ │ └── devtools/
-│ │ │ ├── tasks/main.yml
-│ │ │ └── files/id_ed25519.pub
-│ ├── image.json
-│ ├── variables.auto.pkrvars.json.example
-│ └── key.json.example
-└── .gitignore
-
  **Требования**
  
 - [Packer] ≥ 1.9  

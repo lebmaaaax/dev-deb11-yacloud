@@ -37,11 +37,11 @@ packer/
 
 **Requirements**
 ```
-`Packer` ≥ 1.9
+Packer ≥ 1.9
 
-`Ansible` ≥ 2.15
+Ansible ≥ 2.15
 
-`Yandex Cloud` account
+Yandex Cloud account
 
 Service account with editor or compute.admin role
 

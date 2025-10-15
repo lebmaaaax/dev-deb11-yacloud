@@ -18,6 +18,7 @@ Modular configuration using Ansible roles
 
 **Folder Structure**
 
+```
 packer/
 ├── ansible/            
 │   ├── ansible.cfg
@@ -30,6 +31,7 @@ packer/
 ├── image.json
 ├── variables.auto.pkrvars.json.example
 └── key.json.example
+```
 
 **Requirements**
 

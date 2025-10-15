@@ -35,13 +35,15 @@
 Из директории packer/ выполните:
 
 packer init .
+
 packer validate image.json
+
 packer build -var-file=variables.auto.pkrvars.json image.json
 
 
 После успешного выполнения в Yandex Cloud → Compute Cloud → Images появится новый образ:
 
-debian-11-<timestamp>
+debian-11-(timestamp)
 
 После развертывания из образа можно подключиться по SSH:
 

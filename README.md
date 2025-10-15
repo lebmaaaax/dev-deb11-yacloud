@@ -14,8 +14,8 @@
 
  **Требования**
  
-- [Packer] ≥ 1.9  
-- [Ansible]≥ 2.15  
+- `Packer` ≥ 1.9  
+- `Ansible`≥ 2.15  
 - Аккаунт в `Yandex Cloud`
 - Созданный сервисный аккаунт с ролью `editor` или `compute.admin`  
 - Ключ `key.json` для аутентификации

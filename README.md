@@ -36,7 +36,7 @@ packer/
 ```
 
 **Requirements**
-
+```
 `Packer` ≥ 1.9
 
 `Ansible` ≥ 2.15
@@ -48,14 +48,14 @@ Service account with editor or compute.admin role
 key.json file for authentication
 
 SSH key pair using the id_ed25519 algorithm
-
+```
 **Setup**
 
 Copy example configuration files:
-
+``` bash
 cp packer/variables.auto.pkrvars.json.example packer/variables.auto.pkrvars.json
 cp packer/key.json.example packer/key.json
-
+```
 
 Add your public SSH key (used to access created VMs) to:
 

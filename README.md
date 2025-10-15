@@ -18,19 +18,18 @@ Modular configuration using Ansible roles
 
 **Folder Structure**
 
-`packer/
-├── ansible/
-│ ├── ansible.cfg
-│ ├── playbooks/
-│ │ └── setup_dev_env.yml
-│ ├── roles/
-│ │ └── devtools/
-│ │ ├── tasks/main.yml
-│ │ └── files/id_ed25519.pub
-│
+packer/
+├── ansible/            
+│   ├── ansible.cfg
+│   ├── playbooks/
+│            └── setup_dev_env.yml
+│   ├── roles/
+│          └── devtools/
+│                ├── tasks/main.yml
+│                └── files/id_ed25519.pub
 ├── image.json
 ├── variables.auto.pkrvars.json.example
-└── key.json.example`
+└── key.json.example
 
 **Requirements**
 
